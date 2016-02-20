@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Magic 8 Ball</title>
+    <title>Magic Don Rickles</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -22,11 +22,10 @@
     <script src="js/app.js"></script>
   </head>
   <body ng-app="8ball">
-
     <ion-pane>
       <ion-content class="ball-center-content padding" ng-controller="PredictionController">
-        <img class="logo" src="img/8ball.png" alt="" ng-click="ask()">
-        <p class="prediction" ng-class="{&apos;show&apos;:answered}">{{prediction}}</p>
+        <img class="logo" src="img/rickles.jpg" alt="" ng-click="ask()">
+        <div id="fade"><p class="prediction" ng-class="{&apos;show&apos;:answered}">{{prediction}}</p></div>
       </ion-content>
     </ion-pane>
   </body>
